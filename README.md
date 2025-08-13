@@ -232,6 +232,12 @@ One little trick that I like to use is `terraform graph`, which generates a visu
 tflocal graph | dot -Tpng > graph.png
 ```
 
-which should display the following image:
+which should display an graph similar to the one below.
 
 ![Our terraform infrastructure as a graph](./graph.png)
+
+## Conclusion
+
+You should now have a basic understanding of how to use Terraform to manage a simple infrastructure with a VPC, subnets, and security groups. This example is a good starting point for more complex infrastructures, and you can build upon it by adding more resources, such as EC2 instances, RDS databases, and more. I encourage you to explore the [Terraform AWS provider documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) to learn more about the available resources and how to use them.
+
+Even if you are a bit discouraged by the amount of code, I hope you can see that Terraform is a powerful tool that allows you to define your infrastructure as code, making it easier to manage and maintain. The more you use it, the more comfortable you will become with its syntax and concepts, and the only limit will be your imagination!
