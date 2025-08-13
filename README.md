@@ -232,7 +232,7 @@ One little trick that I like to use is `terraform graph`, which generates a visu
 tflocal graph | dot -Tpng > graph.png
 ```
 
-which should display an graph similar to the one below.
+which should display a graph similar to the one below.
 
 ![Our terraform infrastructure as a graph](./graph.png)
 
